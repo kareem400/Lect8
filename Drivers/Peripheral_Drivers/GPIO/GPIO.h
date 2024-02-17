@@ -60,9 +60,9 @@ typedef enum
 /// GPIO Available speed options
 typedef enum
 {
-	GPIO_Speed_Low = 0b10,///< GPIO_Speed_Low
-	GPIO_Speed_Med = 0b01,///< GPIO_Speed_Med
-	GPIO_Speed_High = 0b11///< GPIO_Speed_High
+	GPIO_Speed_Low = 0b0010,///< GPIO_Speed_Low
+	GPIO_Speed_Med = 0b0001,///< GPIO_Speed_Med
+	GPIO_Speed_High = 0b0011///< GPIO_Speed_High
 } GPIO_Speed_Config;
 
 /// @enum
